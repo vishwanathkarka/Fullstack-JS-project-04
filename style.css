@@ -49,6 +49,11 @@ margin:auto;
     display: flex;
     justify-content: space-between;
 }
+.banner-container {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
 .banner-container div:nth-child(1) {
 width: 400px;
 }
@@ -58,6 +63,7 @@ width: 400px;
     position:absolute;
     z-index: -1;
     top:120px;
+   height: 70vh;
     right: 0;
 
 }
